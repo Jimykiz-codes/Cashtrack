@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CASHTRACK</title>
+  <link rel="stylesheet" href="cashtrack.css">
+</head>
+<body>
+  <header class="header">
+    <h1>CASHTRACK</h1>
+    <h2>Tracking in, tracking out</h2>
+  </header>
+
+  <!-- profile sect -->
+  <section class="profile-container">
+    <div class="profile-info">
+      <img src="img_avatar.png" alt="Avatar" class="profile-pic" style="width:135px;height:135px;">
+      <div>
+        <h2 class="user-name">SAJIMI RAPHAEL</h2>
+        <p class="user-id">Your ID: 123456789</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- Balance Sect -->
+    <section class="balance">
+      <h2>Your Balance</h2>
+      <p id="balance-amount">₦80,500</p>
+    </section>
+
+    <!-- Add New Transaction Form -->
+    <section class="transaction-form">
+      <h2>Add Transaction</h2>
+      <form>
+        <label>Title</label>
+        <input type="text" placeholder="e.g. Lunch, Salary"><br>
+
+        <div>
+          <label>Category</label><br>
+          <br>
+            <input type="radio" id="Income" name="Cat-Income" value="INCOME">
+            <label for="Income">INCOME</label>
+            <input type="radio" id="Expense" name="Expense" value="EXPENSE">
+            <label for="Expense">EXPENSE</label>
+        </div><br>
+
+        <label>Amount</label>
+        <input type="number" placeholder="e.g. -500 for expense, +2000 for income">
+
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <!-- Transaction History Sec-->
+    <section class="transaction-history">
+      <h2>Transaction History</h2>
+      <ul>
+        <li class="income">Salary +₦75,000</li>
+        <li class="expense">Food -₦12,500</li>
+        <li class="income">Weekly allowance +₦30,000</li>
+        <li class="expense">Electricity bill -₦8,000</li>
+        <li class="expense">Data subscription -₦4,000</li>
+      </ul>
+    </section>
+    </main>
+    <section class="consult-calender">
+      <button>Cosult calender</button>
+      <button> Link to bank app</button>
+    </section>
+  <footer>
+    <p>© 2025 CASHTRACK</p>
+  </footer>
+
+</body>
+</html>
