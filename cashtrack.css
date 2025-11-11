@@ -131,7 +131,7 @@
     text-align: center
   }
 
-  .consult-calender button {
+#CC {
     background-color: #2e8b57;
     color: white;
     border-bottom: 2px solid #eee;
@@ -146,6 +146,23 @@
     cursor: pointer;
     transition: background 0.3s ease;
   } 
+
+#lba {
+    background-color: #2e8b57;
+    color: white;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    width: 450px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
   /* ===== FOOTER ===== */
   footer {
     text-align: center;
@@ -155,4 +172,5 @@
     background-color: #2e8b57;
     height: 100px;
   }
+
   
